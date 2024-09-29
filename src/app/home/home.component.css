@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    padding: 30px;
+    height: 20cm;
+}
+.card{
+    position:relative;
+    height: 10cm;
+    width:90vw;
+    background: url("https://plus.unsplash.com/premium_photo-1672115680958-54438df0ab82?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8bW91bnRhaW5zfGVufDB8fDB8fHww");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.final{
+    background-color: #fff;
+    width: 90vw;
+    height: 35vw;
+}
+.text h2{
+    color: #000;
+    text-transform: uppercase;
+    font-weight:900;
+    text-align: center;
+    font-size: 50px;
+}
+.text h2 span{
+    color: #fff;
+}
+.text p{
+    text-align: center;
+    color: #fff;
+    text-justify: newspaper;
+}
+.input{
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 25px 0px 0px 25px;
+    padding: 10px;
+    text-align: center;
+}
+.input span{
+    background-color: rgba(0, 0, 0,0.6);
+    border: none;
+    border-radius: 0px 25px 25px 0px;
+    height: 50px;
+    color: #fff;
+    width: 80px;
+    text-align: center;
+    padding: 10px;
+}
+.final{
+    padding: 4px;
+    display: flex;
+    justify-content: space-between;
+}
+.final p span{
+    font-weight: 700;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+.final p i{
+    font-size: 25px;
+}
